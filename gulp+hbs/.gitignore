@@ -1,0 +1,4 @@
+node_modules
+/dist
+laravel/vendor
+.DS_Store

@@ -1,0 +1,55 @@
+{
+    "appName": "Datum",
+    "output" : "dist",
+    "logoName": "",
+    "loaderName": "",
+    "faviconName": "",
+    "imgMinify": "false",
+    "dark": "false",
+    "pages" : {
+        "skip" : {
+            "app" : [
+            ],
+            "backend" : [
+            ]
+        }
+    },
+    "backend": {
+        "layout": "dashboard-1",
+        "assets": {
+            "fonts": [
+                "./src/assets/fonts/**/*.*"
+            ],
+            "style": [
+                "./node_modules/datatables.net-bs4/css/dataTables.bootstrap4.min.css",
+                "./node_modules/quill/dist/quill.snow.css",
+                "./node_modules/dragula/dist/dragula.min.css",
+                "./node_modules/apexcharts/dist/apexcharts.css",
+                "./src/assets/vendor/Leaflet/leaflet.css"
+            ],
+            "js": {
+                "required": [
+                    "./node_modules/jquery/dist/jquery.js",
+                    "./{directory}/assets/js/popper.min.js",
+                    "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+                    "./node_modules/waypoints/lib/jquery.waypoints.js",
+                    "./node_modules/counterup2/dist/index.js",
+                    "./node_modules/smooth-scrollbar/dist/smooth-scrollbar.js",
+                    "./node_modules/datatables.net/js/jquery.dataTables.min.js",
+                    "./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.min.js",
+                    "./node_modules/dragula/dist/dragula.min.js",
+                    "./node_modules/moment/moment.js",
+                    "./node_modules/choices.js/public/assets/scripts/choices.min.js",
+                    "./src/assets/js/charts/progressbar.js",
+                    "./src/assets/vendor/Leaflet/leaflet.js",
+                    "./src/assets/vendor/vanillajs-datepicker/dist/js/datepicker-full.js"
+                ],
+                "optional": [
+                    "./node_modules/js-treeview/dist/treeview.min.js",
+                    "./node_modules/quill/dist/quill.min.js",
+                    "./node_modules/apexcharts/dist/apexcharts.min.js"
+                ]
+            }
+        }
+    }
+}
